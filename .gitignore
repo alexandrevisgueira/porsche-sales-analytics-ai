@@ -1,0 +1,30 @@
+# --- Segurança & Credenciais ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.json
+
+# --- Dependências ---
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# --- Logs e Dados Dinâmicos ---
+logs/
+*.log
+*.db
+*.sqlite
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Pastas do Projeto ---
+dist/
+dist-ssr/
+.vscode/
+.idea/
